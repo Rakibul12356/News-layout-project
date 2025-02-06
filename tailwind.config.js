@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        poppins:"Poppins,sana-serif"
+      }
+    },
   },
   plugins: [
     // eslint-disable-next-line no-undef
