@@ -46,7 +46,7 @@ const Navbar = () => {
                             src={user_icon} />
                     </div>
                 </div>
-                <Link><button className="btn">Login</button></Link>
+                <Link to="/login"><button className="btn">Login</button></Link>
             </div>
         </div>
     );
